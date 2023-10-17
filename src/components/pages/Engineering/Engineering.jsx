@@ -20,6 +20,14 @@ import steppermotor from "../../../assets/cardimages/steppermotor.gif";
 import  microusb from "../../../assets/cardimages/microusbboard.gif";
 import  dewalt from "../../../assets/cardimages/dewalt.gif";
 import  drill from "../../../assets/cardimages/drill.gif";
+import  arduinonano from "../../../assets/cardimages/arduino.gif";
+import  nodemcumini from "../../../assets/cardimages/nodemcumini.gif";
+import  sparkfunmotor from "../../../assets/cardimages/sparkfunmotor.gif";
+import  raspberrypi from "../../../assets/cardimages/raspberrypi.gif";
+import  v12combustion from "../../../assets/cardimages/v12combustion.gif";
+import  anglegrinder from "../../../assets/cardimages/anglegrinder.gif";
+
+
 
 
 
@@ -272,7 +280,7 @@ const Engineering = () => {
         Light Sensor
       </h5>
     </div>
-    <Link to="/camera" className="py-4">
+    <Link to="/lightsensor" className="py-4">
       <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
         Explore
       </span>
@@ -296,6 +304,8 @@ const Engineering = () => {
 </div>
 
 </div>
+
+
 
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center">
 
@@ -342,15 +352,103 @@ const Engineering = () => {
 </Link>
 </div>
 
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={arduinonano} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+    Arduino Nano
+  </h5>
+</div>
+<Link to="/arduinonano" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+</div> 
 
 
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center">
 
 
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={nodemcumini} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+    Node MCU Mini
+  </h5>
+</div>
+<Link to="/nodemcumini" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={sparkfunmotor} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Sparkfun Qwiic Motor Driver
+  </h5>
+</div>
+<Link to="/sparkfunmotor" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={raspberrypi} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Raspberry Pi Zero
+  </h5>
+</div>
+<Link to="/raspberrypizero" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={v12combustion} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  V12 Combustion Engine
+  </h5>
+</div>
+<Link to="/v12combustion" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+</div>
 
 
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center">
 
 
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={anglegrinder} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Angle Grinder
+  </h5>
+</div>
+<Link to="/anglegrinder" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
 
+</div>
 
 
 
@@ -365,7 +463,7 @@ const Engineering = () => {
 
 
 
-      </div>
+      
     </>
   );
 };

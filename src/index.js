@@ -49,6 +49,13 @@ import Steppermotor from "./components/container/Engineering/Steppermotor";
 import MicroUSB from "./components/container/Engineering/MicroUSB";
 import DewaltWoodRouter from "./components/container/Engineering/DewaltWoodRouter";
 import CordlessDrillMachine from "./components/container/Engineering/CordlessDrillMachine";
+import ArduinoNano from "./components/container/Engineering/ArduinoNano";
+import Lightsensor from "./components/container/Engineering/Lightsensor";
+import NodeMCUMini from "./components/container/Engineering/NodeMCUMini";
+import SparkfunQwiicMotorDriver from "./components/container/Engineering/SparkfunQwiicMotorDriver";
+import RaspberryPiZero from "./components/container/Engineering/RaspberryPiZero";
+import V12combustion from "./components/container/Engineering/V12combustion";
+import AngleGrinder from "./components/container/Engineering/AngleGrinder";
 
 
 
@@ -408,10 +415,68 @@ root.render(
     }
   />
       
+  <Route
+    path="/arduinonano"
+    element={
+      <Protected>
+        <ArduinoNano/>
+      </Protected>
+    }
+  />
     
-
-
+  <Route
+  path="/lightsensor"
+  element={
+    <Protected>
+      <Lightsensor/>
+    </Protected>
+  }
+/>
+  
+<Route
+  path="/nodemcumini"
+  element={
+    <Protected>
+      <NodeMCUMini/>
+    </Protected>
+  }
+/>
       
+<Route
+  path="/sparkfunmotor"
+  element={
+    <Protected>
+      <SparkfunQwiicMotorDriver/>
+    </Protected>
+  }
+/>
+ 
+<Route
+  path="/raspberrypizero"
+  element={
+    <Protected>
+      <RaspberryPiZero/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/v12combustion"
+  element={
+    <Protected>
+      <V12combustion/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/anglegrinder"
+  element={
+    <Protected>
+      <AngleGrinder/>
+    </Protected>
+  }
+/>
 
 
          
