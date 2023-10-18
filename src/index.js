@@ -56,6 +56,14 @@ import SparkfunQwiicMotorDriver from "./components/container/Engineering/Sparkfu
 import RaspberryPiZero from "./components/container/Engineering/RaspberryPiZero";
 import V12combustion from "./components/container/Engineering/V12combustion";
 import AngleGrinder from "./components/container/Engineering/AngleGrinder";
+import Rotax from "./components/container/Engineering/Rotax";
+import FourStrokeEngine from "./components/container/Engineering/FourStrokeEngine";
+import SingleCylinder from "./components/container/Engineering/SingleCylinder";
+import GrainSeparator from "./components/container/Engineering/Grainseparator";
+import Camera from "./components/container/Engineering/Camera";
+import Bikeselfstart from "./components/container/Engineering/Bikeselfstart";
+import Escalator from "./components/container/Engineering/Escalator";
+import BarretM82 from "./components/container/Engineering/BarretM82";
 
 
 
@@ -477,6 +485,80 @@ root.render(
     </Protected>
   }
 />
+
+<Route
+  path="/rotax"
+  element={
+    <Protected>
+      <Rotax/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/fourstrokeengine"
+  element={
+    <Protected>
+      <FourStrokeEngine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/singlecylinder"
+  element={
+    <Protected>
+      <SingleCylinder/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/grainseparator"
+  element={
+    <Protected>
+      <GrainSeparator/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/camera"
+  element={
+    <Protected>
+      <Camera/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/bikeselfstart"
+  element={
+    <Protected>
+      <Bikeselfstart/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/escalator"
+  element={
+    <Protected>
+      <Escalator/>
+    </Protected>
+  }
+/>
+
+
+<Route
+  path="/barretm82"
+  element={
+    <Protected>
+      <BarretM82/>
+    </Protected>
+  }
+/>
+
 
 
          

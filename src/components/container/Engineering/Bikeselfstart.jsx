@@ -1,11 +1,11 @@
 import React from 'react'
 
-const SingleCylinder = () => {
+const Bikeselfstart = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://singlecycleengine.vercel.app/"
-            title="SingleCylinder"
+            src="https://camera-three-sigma.vercel.app/"
+            title="BikeSelfStart"
             style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
@@ -17,4 +17,4 @@ const SingleCylinder = () => {
   )
 }
 
-export default SingleCylinder
+export default Bikeselfstart

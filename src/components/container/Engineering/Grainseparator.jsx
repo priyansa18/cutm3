@@ -1,12 +1,13 @@
 import React from 'react'
 
-const SingleCylinder = () => {
+const GrainSeparator = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://singlecycleengine.vercel.app/"
-            title="SingleCylinder"
-            style={{ width: "500px", height: "400px" }}
+            src="https://grainseparator.vercel.app/"
+            title="GrainSeparator"
+            className='h-screen w-full'
+            // style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
@@ -17,4 +18,4 @@ const SingleCylinder = () => {
   )
 }
 
-export default SingleCylinder
+export default GrainSeparator

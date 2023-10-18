@@ -14,7 +14,6 @@ import camera from "../../../assets/cardimages/camera.gif";
 import engine from "../../../assets/cardimages/4stroke.gif";
 import diselEngine from "../../../assets/cardimages/dieselengine.gif";
 import gs from "../../../assets/cardimages/gs.gif";
-import rotax from "../../../assets/cardimages/rotaxImage.jpg";
 import lightsensor from "../../../assets/cardimages/lsensor.gif";
 import steppermotor from "../../../assets/cardimages/steppermotor.gif";
 import  microusb from "../../../assets/cardimages/microusbboard.gif";
@@ -26,6 +25,12 @@ import  sparkfunmotor from "../../../assets/cardimages/sparkfunmotor.gif";
 import  raspberrypi from "../../../assets/cardimages/raspberrypi.gif";
 import  v12combustion from "../../../assets/cardimages/v12combustion.gif";
 import  anglegrinder from "../../../assets/cardimages/anglegrinder.gif";
+import  rotaxe from "../../../assets/cardimages/rotaxe.jpg";
+import  singlecylinder from "../../../assets/cardimages/singlecylinder.gif";
+import  bikeselfstart from "../../../assets/cardimages/bikeselfstart.gif";
+import  escalator from "../../../assets/cardimages/escalator.gif";
+import  barretm82 from "../../../assets/cardimages/barretm82.gif";
+
 
 
 
@@ -188,12 +193,12 @@ const Engineering = () => {
               <img src={engine} className="h-32 w-full" alt="" />
               <div className="p-3">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-                  4 Stroke Engine
+                  Four Stroke Engine
                 </h5>
               </div>
 
               <span
-                onClick={(e) => navigate("/engine")}
+                onClick={(e) => navigate("/fourstrokeengine")}
                 className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg"
               >
                 Explore
@@ -249,28 +254,28 @@ const Engineering = () => {
             Grain Separator
           </h5>
         </div>
-        <Link to="/camera" className="py-4">
+        <Link to="/grainseparator" className="py-4">
           <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
             Explore
           </span>
         </Link>
       </div>
 
+      
 
       <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-      <img src={rotax} className="h-32 w-full" alt="" />
+      <img src={rotaxe} className="h-32 w-full" alt="" />
       <div className="p-3">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-          Rotax
+          Rotax-582 Engine
         </h5>
       </div>
-      <Link to="/camera" className="py-4">
+      <Link to="/rotax" className="py-4">
         <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
           Explore
         </span>
       </Link>
     </div>
-
 
     
     <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
@@ -429,9 +434,22 @@ const Engineering = () => {
 </div>
 
 </div>
-
-
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center">
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={singlecylinder} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Single Cylinder Engine
+  </h5>
+</div>
+<Link to="/singlecylinder" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
 
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
@@ -448,6 +466,61 @@ const Engineering = () => {
 </Link>
 </div>
 
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={bikeselfstart} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Bike Self Start Motor
+  </h5>
+</div>
+<Link to="/bikeselfstart" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={escalator} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Escalator
+  </h5>
+</div>
+<Link to="/escalator" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+</div>
+
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center"></div>
+
+   
+
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={barretm82} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Barret M82
+  </h5>
+</div>
+<Link to="/barretm82" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+------
+
+
+
+
+
 </div>
 
 
@@ -455,7 +528,8 @@ const Engineering = () => {
 
 
 
-      </div>
+
+      
       
 
 
