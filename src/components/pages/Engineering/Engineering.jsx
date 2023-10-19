@@ -225,7 +225,7 @@ const Engineering = () => {
               <img src={camera} className="h-32 w-full" alt="" />
               <div className="p-3">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-                  CAMERA
+                  Camera
                 </h5>
               </div>
               <Link to="/camera" className="py-4">
