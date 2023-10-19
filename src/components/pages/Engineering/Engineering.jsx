@@ -12,7 +12,7 @@ import xray from "../../../assets/cardimages/xray.gif";
 import electrical from "../../../assets/cardimages/electrical.gif";
 import camera from "../../../assets/cardimages/camera.gif";
 import engine from "../../../assets/cardimages/4stroke.gif";
-import diselEngine from "../../../assets/cardimages/dieselengine.gif";
+import dieselengine from "../../../assets/cardimages/dieselengine.gif";
 import gs from "../../../assets/cardimages/gs.gif";
 import lightsensor from "../../../assets/cardimages/lsensor.gif";
 import steppermotor from "../../../assets/cardimages/steppermotor.gif";
@@ -208,13 +208,13 @@ const Engineering = () => {
             </div>
 
             <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-              <img src={diselEngine} className="h-32 w-full" alt="" />
+              <img src={dieselengine} className="h-32 w-full" alt="" />
               <div className="p-3">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-                  disel engine
+                  Diesel engine
                 </h5>
               </div>
-              <Link to="/electrical" className="py-4">
+              <Link to="/diesel" className="py-4">
                 <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
                   Explore
                 </span>

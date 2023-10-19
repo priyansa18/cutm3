@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Escalator = () => {
+const DieselEngine = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://escalator123.vercel.app/"
-            title="Escalator"
+            src="https://anglegrinder.vercel.app/"
+            title="DieselEngine"
             className='h-screen w-full'
             //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
@@ -18,4 +18,4 @@ const Escalator = () => {
   )
 }
 
-export default Escalator
+export default DieselEngine

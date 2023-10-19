@@ -66,6 +66,7 @@ import Escalator from "./components/container/Engineering/Escalator";
 import BarretM82 from "./components/container/Engineering/BarretM82";
 import BlenderMachine from "./components/container/Engineering/BlenderMachine";
 import Cylinderblockassembly from "./components/container/Engineering/Cylinderblockassembly";
+import DieselEngine from "./components/container/Engineering/DieselEngine";
 
 
 
@@ -547,6 +548,15 @@ root.render(
   element={
     <Protected>
       <Escalator/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/dieselengine"
+  element={
+    <Protected>
+      <DieselEngine/>
     </Protected>
   }
 />
