@@ -6,7 +6,8 @@ const FourStrokeEngine = () => {
          <iframe
             src="https://4-stroke-engine.vercel.app/"
             title="Four Stroke Engine"
-            style={{ width: "500px", height: "400px" }}
+            className='h-screen w-full'
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"

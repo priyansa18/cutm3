@@ -7,7 +7,8 @@ const DroneSim = () => {
             <iframe
                 src="https://dronesimulator.vercel.app/"
                 title="Drone Simulator"
-                style={{ width: "500px", height: "400px" }}
+                className='h-screen w-full'
+                //style={{ width: "500px", height: "400px" }}
                 allowfullscreen="true"
                 webkitallowfullscreen="true"
                 mozallowfullscreen="true"

@@ -64,6 +64,8 @@ import Camera from "./components/container/Engineering/Camera";
 import Bikeselfstart from "./components/container/Engineering/Bikeselfstart";
 import Escalator from "./components/container/Engineering/Escalator";
 import BarretM82 from "./components/container/Engineering/BarretM82";
+import BlenderMachine from "./components/container/Engineering/BlenderMachine";
+import Cylinderblockassembly from "./components/container/Engineering/Cylinderblockassembly";
 
 
 
@@ -559,6 +561,23 @@ root.render(
   }
 />
 
+<Route
+  path="/blendermachine"
+  element={
+    <Protected>
+      <BlenderMachine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/cylinderblockassembly"
+  element={
+    <Protected>
+      <Cylinderblockassembly/>
+    </Protected>
+  }
+/>
 
 
          

@@ -6,7 +6,8 @@ const Steppermotor = () => {
          <iframe
             src="https://steppermotor.vercel.app/"
             title="Stepper Motor"
-            style={{ width: "500px", height: "400px" }}
+            className='h-screen w-full'
+           // style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"

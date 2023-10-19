@@ -30,6 +30,8 @@ import  singlecylinder from "../../../assets/cardimages/singlecylinder.gif";
 import  bikeselfstart from "../../../assets/cardimages/bikeselfstart.gif";
 import  escalator from "../../../assets/cardimages/escalator.gif";
 import  barretm82 from "../../../assets/cardimages/barretm82.gif";
+import  blendermachine from "../../../assets/cardimages/blender.gif";
+import  cylinderblock from "../../../assets/cardimages/cylinderblock.gif";
 
 
 
@@ -434,6 +436,7 @@ const Engineering = () => {
 </div>
 
 </div>
+
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
@@ -496,9 +499,7 @@ const Engineering = () => {
 </div>
 </div>
 
-<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center"></div>
-
-   
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
@@ -514,6 +515,38 @@ const Engineering = () => {
   </span>
 </Link>
 </div>
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={blendermachine} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Blender Machine
+  </h5>
+</div>
+<Link to="/blendermachine" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={cylinderblock} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Cylinder Block Assembly
+  </h5>
+</div>
+<Link to="/cylinderblockassembly" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+</div>
+
+
 
 ------
 

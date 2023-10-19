@@ -6,7 +6,8 @@ const Lightsensor = () => {
          <iframe
             src="https://lightsensor.vercel.app/"
             title="Lightsensor"
-            style={{ width: "500px", height: "400px" }}
+            className='h-screen w-full'
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"

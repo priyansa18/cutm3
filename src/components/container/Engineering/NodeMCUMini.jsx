@@ -6,7 +6,8 @@ const NodeMCUMini = () => {
          <iframe
             src="https://node-mcu-mini.vercel.app/"
             title="NodeMCUMini"
-            style={{ width: "500px", height: "400px" }}
+            className='h-screen w-full'
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
