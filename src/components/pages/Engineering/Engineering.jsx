@@ -32,6 +32,7 @@ import  escalator from "../../../assets/cardimages/escalator.gif";
 import  barretm82 from "../../../assets/cardimages/barretm82.gif";
 import  blendermachine from "../../../assets/cardimages/blender.gif";
 import  cylinderblock from "../../../assets/cardimages/cylinderblock.gif";
+import  fivespeed from "../../../assets/cardimages/fivespeed.gif";
 
 
 
@@ -537,6 +538,20 @@ const Engineering = () => {
   </h5>
 </div>
 <Link to="/cylinderblockassembly" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={fivespeed} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Five Speed Transmission
+  </h5>
+</div>
+<Link to="/fivespeed" className="py-4">
   <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
     Explore
   </span>

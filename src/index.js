@@ -67,6 +67,7 @@ import BarretM82 from "./components/container/Engineering/BarretM82";
 import BlenderMachine from "./components/container/Engineering/BlenderMachine";
 import Cylinderblockassembly from "./components/container/Engineering/Cylinderblockassembly";
 import DieselEngine from "./components/container/Engineering/DieselEngine";
+import FiveSpeedTransmission from "./components/container/Engineering/FiveSpeedtransmission";
 
 
 
@@ -589,6 +590,14 @@ root.render(
   }
 />
 
+<Route
+  path="/fivespeed"
+  element={
+    <Protected>
+      <FiveSpeedTransmission/>
+    </Protected>
+  }
+/>
 
          
 
