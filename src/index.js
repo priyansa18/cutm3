@@ -68,6 +68,13 @@ import BlenderMachine from "./components/container/Engineering/BlenderMachine";
 import Cylinderblockassembly from "./components/container/Engineering/Cylinderblockassembly";
 import DieselEngine from "./components/container/Engineering/DieselEngine";
 import FiveSpeedTransmission from "./components/container/Engineering/FiveSpeedtransmission";
+import V6Engine from "./components/container/Engineering/V6Engine";
+import DiscBrake from "./components/container/Engineering/DiscBrake";
+import Esp8266 from "./components/container/Engineering/Esp8266";
+import Handdrill from "./components/container/Engineering/Handdrill";
+import Headphone from "./components/container/Engineering/Headphone";
+import MotorcycleExhaust from "./components/container/Engineering/MotorcycleExhaust";
+import Binocular from "./components/container/Engineering/Binocular";
 
 
 
@@ -598,6 +605,90 @@ root.render(
     </Protected>
   }
 />
+
+<Route
+  path="/v6engine"
+  element={
+    <Protected>
+      <V6Engine/>
+    </Protected>
+  }
+/>
+
+
+<Route
+  path="/discbrake"
+  element={
+    <Protected>
+      <DiscBrake/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/esp"
+  element={
+    <Protected>
+      <Esp8266/>
+    </Protected>
+  }
+/>
+
+
+<Route
+  path="/handdrill"
+  element={
+    <Protected>
+      <Handdrill/>
+    </Protected>
+  }
+/>
+
+
+<Route
+  path="/headphone"
+  element={
+    <Protected>
+      <Headphone/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/motor"
+  element={
+    <Protected>
+      <MotorcycleExhaust/>
+    </Protected>
+  }
+/>
+
+
+<Route
+  path="/binocular"
+  element={
+    <Protected>
+      <Binocular/>
+    </Protected>
+  }
+/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
          
 
