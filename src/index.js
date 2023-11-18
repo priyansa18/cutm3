@@ -75,6 +75,11 @@ import Handdrill from "./components/container/Engineering/Handdrill";
 import Headphone from "./components/container/Engineering/Headphone";
 import MotorcycleExhaust from "./components/container/Engineering/MotorcycleExhaust";
 import Binocular from "./components/container/Engineering/Binocular";
+import AutomaticAirValve from "./components/container/Engineering/AutomaticAirValve";
+import ERTFTM from "./components/container/Engineering/ERTFTM";
+import LipoCharger from "./components/container/Engineering/LipoCharger";
+import MatekPowerHub from "./components/container/Engineering/MatekPowerHub";
+import RefrigiratorValve from "./components/container/Engineering/RefrigiratorValve";
 
 
 
@@ -673,12 +678,50 @@ root.render(
   }
 />
 
+<Route
+  path="/automaticairvalve"
+  element={
+    <Protected>
+      <AutomaticAirValve/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/ertftm"
+  element={
+    <Protected>
+      <ERTFTM/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/lipocharger"
+  element={
+    <Protected>
+      <LipoCharger/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/matek"
+  element={
+    <Protected>
+      <MatekPowerHub/>
+    </Protected>
+  }
+/>
 
-
-
+<Route
+  path="/refrigiratorvalve"
+  element={
+    <Protected>
+      <RefrigiratorValve/>
+    </Protected>
+  }
+/>
 
 
 

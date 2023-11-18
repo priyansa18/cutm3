@@ -18,4 +18,4 @@ const AngleGrinder = () => {
   )
 }
 
-export default AngleGrinder
+export default AngleGrinder 

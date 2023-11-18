@@ -34,12 +34,17 @@ import  blendermachine from "../../../assets/cardimages/blender.gif";
 import  cylinderblock from "../../../assets/cardimages/cylinderblock.gif";
 import  fivespeed from "../../../assets/cardimages/fivespeed.gif";
 import  esp from "../../../assets/cardimages/esp.gif";
-import  headphone from "../../../assets/cardimages/headphone.gif";
+import  headphone from "../../../assets/cardimages/headphone.gif"; 
 import  v6engine from "../../../assets/cardimages/v6engine.gif";
 import  handdrill from "../../../assets/cardimages/handdrill.gif";
 import  binocular from "../../../assets/cardimages/binocular.gif";
 import  discbrake from "../../../assets/cardimages/discbrake.gif";
-import  motor from "../../../assets/cardimages/discbrake.gif";
+import  motor from "../../../assets/cardimages/motor.gif";
+import  automaticairvalve from "../../../assets/cardimages/automaticairvalve.gif";
+import  ertf from "../../../assets/cardimages/ertf.gif";
+import  lipocharger from "../../../assets/cardimages/lipocharger.gif";
+import  matek from "../../../assets/cardimages/matek.png";
+import  rvalve from "../../../assets/cardimages/rvalve.gif";
 
 
 
@@ -625,6 +630,8 @@ const Engineering = () => {
 </Link>
 </div>
 
+</div>
+
 
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
@@ -667,7 +674,84 @@ const Engineering = () => {
 </div>
 <Link to="/binocular" className="py-4">
   <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore 
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={automaticairvalve} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Automatic Air Valve
+  </h5>
+</div>
+<Link to="/automaticairvalve" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore 
+  </span>
+</Link>
+</div>
+</div>
+
+
+
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={ertf} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  ER-TFTM1.54 B
+  </h5>
+</div>
+<Link to="/ertftm" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
     Explore
+  </span>
+</Link>
+</div>
+
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={lipocharger} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Micro USB Lipo Charger
+  </h5>
+</div>
+<Link to="/lipocharger" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={matek} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Matek Power Hub
+  </h5>
+</div>
+<Link to="/matek" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore 
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={rvalve} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Refrigirator Valve
+  </h5>
+</div>
+<Link to="/refrigiratorvalve" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore 
   </span>
 </Link>
 </div>
@@ -691,12 +775,6 @@ const Engineering = () => {
 
 
 
-
-
-
-
-
-</div>
 
 
 
