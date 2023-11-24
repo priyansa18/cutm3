@@ -80,6 +80,10 @@ import ERTFTM from "./components/container/Engineering/ERTFTM";
 import LipoCharger from "./components/container/Engineering/LipoCharger";
 import MatekPowerHub from "./components/container/Engineering/MatekPowerHub";
 import RefrigiratorValve from "./components/container/Engineering/RefrigiratorValve";
+import WifiSwitchRelay from "./components/container/Engineering/WifiSwitchRelay";
+import Rodandbearing from "./components/container/Engineering/Rodandbearing";
+import Carsteering from "./components/container/Engineering/Carsteering";
+import Drumbreak from "./components/container/Engineering/Drumbreak";
 
 
 
@@ -723,7 +727,42 @@ root.render(
   }
 />
 
+<Route
+  path="/rodandbearing"
+  element={
+    <Protected>
+      <Rodandbearing/>
+    </Protected>
+  }
+/>
 
+
+<Route
+  path="/wifiswitchrelay"
+  element={
+    <Protected>
+      <WifiSwitchRelay/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/carsteering"
+  element={
+    <Protected>
+      <Carsteering/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/drumbreak"
+  element={
+    <Protected>
+      <Drumbreak/>
+    </Protected>
+  }
+/>
 
 
 
