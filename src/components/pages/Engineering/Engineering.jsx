@@ -50,6 +50,7 @@ import  wifi from "../../../assets/cardimages/wifi.jpg";
 import  rod from "../../../assets/cardimages/rod.gif";
 import  car from "../../../assets/cardimages/car.gif";
 import  heat from "../../../assets/cardimages/heat.gif";
+import  shock from "../../../assets/cardimages/shock.gif";
 
 
 
@@ -707,7 +708,7 @@ const Engineering = () => {
 <img src={ertf} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-  ER-TFTM1.54 B
+  ERTFTM 1.54
   </h5>
 </div>
 <Link to="/ertftm" className="py-4">
@@ -838,7 +839,19 @@ const Engineering = () => {
 </Link>
 </div>
 
-
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={shock} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Shock Absorber
+  </h5>
+</div>
+<Link to="/ShockAbsorber" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
 
 
 

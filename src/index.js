@@ -76,7 +76,7 @@ import Headphone from "./components/container/Engineering/Headphone";
 import MotorcycleExhaust from "./components/container/Engineering/MotorcycleExhaust";
 import Binocular from "./components/container/Engineering/Binocular";
 import AutomaticAirValve from "./components/container/Engineering/AutomaticAirValve";
-import ERTFTM from "./components/container/Engineering/ERTFTM";
+
 import LipoCharger from "./components/container/Engineering/LipoCharger";
 import MatekPowerHub from "./components/container/Engineering/MatekPowerHub";
 import RefrigiratorValve from "./components/container/Engineering/RefrigiratorValve";
@@ -84,6 +84,8 @@ import WifiSwitchRelay from "./components/container/Engineering/WifiSwitchRelay"
 import Rodandbearing from "./components/container/Engineering/Rodandbearing";
 import Carsteering from "./components/container/Engineering/Carsteering";
 import Drumbreak from "./components/container/Engineering/Drumbreak";
+import ShockAbsorber from "./components/container/Engineering/ShockAbsorber";
+import RadiatorHeatExchanger from "./components/container/Engineering/RadiatorHeatExchanger";
 
 
 
@@ -691,14 +693,9 @@ root.render(
   }
 />
 
-<Route
-  path="/ertftm"
-  element={
-    <Protected>
-      <ERTFTM/>
-    </Protected>
-  }
-/>
+
+
+
 
 <Route
   path="/lipocharger"
@@ -764,8 +761,23 @@ root.render(
   }
 />
 
+<Route
+  path="/shockabsorber"
+  element={
+    <Protected>
+      <ShockAbsorber/>
+    </Protected>
+  }
+/>
 
-
+<Route
+  path="/heatexchanger"
+  element={
+    <Protected>
+      <RadiatorHeatExchanger/>
+    </Protected>
+  }
+/>
 
 
 
