@@ -91,6 +91,7 @@ import StormSensor from "./components/container/Engineering/StormSensor";
 import EspEye from "./components/container/Engineering/EspEye";
 import ChargingModule from "./components/container/Engineering/ChargingModule";
 import Hobbywing from "./components/container/Engineering/Hobbywing";
+import ESP32mcontroller from "./components/container/Engineering/ESP32mcontroller";
 
 
 
@@ -849,6 +850,14 @@ root.render(
     
 
 
+<Route
+  path="/esp32mc"
+  element={
+    <Protected>
+      <ESP32mcontroller/>
+    </Protected>
+  }
+/>
 
 
 
