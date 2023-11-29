@@ -51,6 +51,12 @@ import  rod from "../../../assets/cardimages/rod.gif";
 import  car from "../../../assets/cardimages/car.gif";
 import  heat from "../../../assets/cardimages/heat.gif";
 import  shock from "../../../assets/cardimages/shock.gif";
+import  roller from "../../../assets/cardimages/roller.gif";
+import  sonoff from "../../../assets/cardimages/sonoff.jpg";
+import  storm from "../../../assets/cardimages/storm.jpg";
+import  eye from "../../../assets/cardimages/eye.jpg";
+import  charge from "../../../assets/cardimages/charge.png";
+import  hobbywing from "../../../assets/cardimages/hobbywing.jpg";
 
 
 
@@ -853,6 +859,104 @@ const Engineering = () => {
 </Link>
 </div>
 
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={roller} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Roller Conveyor
+  </h5>
+</div>
+<Link to="/RollerConveyor" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={sonoff} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Sonoff 7-32 Wifi
+  </h5>
+</div>
+<Link to="/Sonoff" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+</div>
+
+
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={storm} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  ACS 712 Strom Sensor Arduino
+  </h5>
+</div>
+<Link to="/StormSensor" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={eye} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Esp Eye
+  </h5>
+</div>
+<Link to="/EspEye" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={charge} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  H961-u v6.0 Charging Module
+  </h5>
+</div>
+<Link to="/chargingm" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={hobbywing} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Hobbywing X-rotor F4 Flight Controller
+  </h5>
+</div>
+<Link to="/hobbywing" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -873,12 +977,6 @@ const Engineering = () => {
 
 
 </div>
-
-
-
-
-
-
 
 
 

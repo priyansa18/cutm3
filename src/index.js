@@ -76,7 +76,6 @@ import Headphone from "./components/container/Engineering/Headphone";
 import MotorcycleExhaust from "./components/container/Engineering/MotorcycleExhaust";
 import Binocular from "./components/container/Engineering/Binocular";
 import AutomaticAirValve from "./components/container/Engineering/AutomaticAirValve";
-
 import LipoCharger from "./components/container/Engineering/LipoCharger";
 import MatekPowerHub from "./components/container/Engineering/MatekPowerHub";
 import RefrigiratorValve from "./components/container/Engineering/RefrigiratorValve";
@@ -86,6 +85,14 @@ import Carsteering from "./components/container/Engineering/Carsteering";
 import Drumbreak from "./components/container/Engineering/Drumbreak";
 import ShockAbsorber from "./components/container/Engineering/ShockAbsorber";
 import RadiatorHeatExchanger from "./components/container/Engineering/RadiatorHeatExchanger";
+import RollerConveyor from "./components/container/Engineering/RollerConveyor";
+import Sonoff from "./components/container/Engineering/Sonoff";
+import StormSensor from "./components/container/Engineering/StormSensor";
+import EspEye from "./components/container/Engineering/EspEye";
+import ChargingModule from "./components/container/Engineering/ChargingModule";
+import Hobbywing from "./components/container/Engineering/Hobbywing";
+
+
 
 
 
@@ -779,12 +786,127 @@ root.render(
   }
 />
 
+<Route
+  path="/rollerconveyor"
+  element={
+    <Protected>
+      <RollerConveyor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/sonoff"
+  element={
+    <Protected>
+      <Sonoff/>
+    </Protected>
+  }
+/>
 
 
-
-
-
+<Route
+  path="/storm"
+  element={
+    <Protected>
+      <StormSensor/>
+    </Protected>
+  }
+/>
          
+
+
+<Route
+  path="/espeye"
+  element={
+    <Protected>
+      <EspEye/>
+    </Protected>
+  }
+/>
+     
+
+<Route
+  path="/chargingm"
+  element={
+    <Protected>
+      <ChargingModule/>
+    </Protected>
+  }
+/>
+    
+
+     
+
+<Route
+  path="/hobbywing"
+  element={
+    <Protected>
+      <Hobbywing/>
+    </Protected>
+  }
+/>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </Routes>
 
