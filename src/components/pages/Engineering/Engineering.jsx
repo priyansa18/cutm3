@@ -58,6 +58,8 @@ import  eye from "../../../assets/cardimages/eye.jpg";
 import  charge from "../../../assets/cardimages/charge.png";
 import  hobbywing from "../../../assets/cardimages/hobbywing.jpg";
 import  mc from "../../../assets/cardimages/mc.gif";
+import  alternator from "../../../assets/cardimages/alternator.gif";
+import  cams from "../../../assets/cardimages/cams.gif";
 
 
 
@@ -971,6 +973,59 @@ const Engineering = () => {
 </div>
 
 
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={alternator} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Alternator
+  </h5>
+</div>
+<Link to="/alternator" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={cams} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Camshaft
+  </h5>
+</div>
+<Link to="/camshaft" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1006,32 +1061,6 @@ const Engineering = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-      
-      
 
 
 

@@ -92,6 +92,8 @@ import EspEye from "./components/container/Engineering/EspEye";
 import ChargingModule from "./components/container/Engineering/ChargingModule";
 import Hobbywing from "./components/container/Engineering/Hobbywing";
 import ESP32mcontroller from "./components/container/Engineering/ESP32mcontroller";
+import Alternator from "./components/container/Engineering/Alternator";
+import Camshaft from "./components/container/Engineering/Camshaft";
 
 
 
@@ -861,11 +863,25 @@ root.render(
 
 
 
+<Route
+  path="/alternator"
+  element={
+    <Protected>
+      <Alternator/>
+    </Protected>
+  }
+/>
 
 
 
-
-
+<Route
+  path="/camshaft"
+  element={
+    <Protected>
+      <Camshaft/>
+    </Protected>
+  }
+/>
 
 
 
