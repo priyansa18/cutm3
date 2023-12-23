@@ -1,13 +1,13 @@
 import React from 'react'
 
-const  EspEye= () => {
+const CatalyticConverter = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://esp-tau.vercel.app/"
-            title="Esp Eye"
+            src="https://catalytic-converter.vercel.app/"
+            title="Catalytic Converter"
             className='h-screen w-full'
-           // style={{ width: "500px", height: "400px" }}
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
@@ -18,4 +18,4 @@ const  EspEye= () => {
   )
 }
 
-export default EspEye
+export default CatalyticConverter

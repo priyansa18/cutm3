@@ -82,7 +82,6 @@ import RefrigiratorValve from "./components/container/Engineering/RefrigiratorVa
 import WifiSwitchRelay from "./components/container/Engineering/WifiSwitchRelay";
 import Rodandbearing from "./components/container/Engineering/Rodandbearing";
 import Carsteering from "./components/container/Engineering/Carsteering";
-import Drumbreak from "./components/container/Engineering/Drumbreak";
 import ShockAbsorber from "./components/container/Engineering/ShockAbsorber";
 import RadiatorHeatExchanger from "./components/container/Engineering/RadiatorHeatExchanger";
 import RollerConveyor from "./components/container/Engineering/RollerConveyor";
@@ -94,6 +93,9 @@ import Hobbywing from "./components/container/Engineering/Hobbywing";
 import ESP32mcontroller from "./components/container/Engineering/ESP32mcontroller";
 import Alternator from "./components/container/Engineering/Alternator";
 import Camshaft from "./components/container/Engineering/Camshaft";
+import CatalyticConverter from "./components/container/Engineering/CatalyticConverter";
+
+
 
 
 
@@ -762,14 +764,7 @@ root.render(
   }
 />
 
-<Route
-  path="/drumbreak"
-  element={
-    <Protected>
-      <Drumbreak/>
-    </Protected>
-  }
-/>
+
 
 <Route
   path="/shockabsorber"
@@ -882,6 +877,16 @@ root.render(
     </Protected>
   }
 />
+
+<Route
+  path="/catalytic"
+  element={
+    <Protected>
+      <CatalyticConverter/>
+    </Protected>
+  }
+/>
+
 
 
 

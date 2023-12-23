@@ -45,7 +45,6 @@ import  ertf from "../../../assets/cardimages/ertf.gif";
 import  lipocharger from "../../../assets/cardimages/lipocharger.gif";
 import  matek from "../../../assets/cardimages/matek.png";
 import  rvalve from "../../../assets/cardimages/rvalve.gif";
-import  drum from "../../../assets/cardimages/drum.gif";
 import  wifi from "../../../assets/cardimages/wifi.jpg";
 import  rod from "../../../assets/cardimages/rod.gif";
 import  car from "../../../assets/cardimages/car.gif";
@@ -60,6 +59,8 @@ import  hobbywing from "../../../assets/cardimages/hobbywing.jpg";
 import  mc from "../../../assets/cardimages/mc.gif";
 import  alternator from "../../../assets/cardimages/alternator.gif";
 import  cams from "../../../assets/cardimages/cams.gif";
+import  catalytic from "../../../assets/cardimages/catalytic.gif";
+import  vse from "../../../assets/cardimages/vse.gif";
 
 
 
@@ -803,20 +804,21 @@ const Engineering = () => {
 </Link>
 </div>
 
-
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={drum} className="h-32 w-full" alt="" />
+<img src={vse} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-  Drum Break
+  Vertical Steam Engine
   </h5>
 </div>
-<Link to="/Drumbreak" className="py-4">
+<Link to="/verticalsteamengine" className="py-4">
   <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
     Explore
   </span>
 </Link>
 </div>
+
+
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
 <img src={car} className="h-32 w-full" alt="" />
@@ -1001,6 +1003,44 @@ const Engineering = () => {
 </Link>
 </div>
 
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={catalytic} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Catalytic Converter
+  </h5>
+</div>
+<Link to="/catalytic" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+</div>
+
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={mc} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Compressed Engine
+  </h5>
+</div>
+<Link to="/compressedengine" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -1009,9 +1049,6 @@ const Engineering = () => {
 
 
 </div>
-
-
-
 
 
 
