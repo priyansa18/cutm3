@@ -1,13 +1,13 @@
 import React from 'react'
 
-const  FishFeedManufacturing= () => {
+const SkeletalSystem = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://fishfeedmanufacturing.vercel.app/"
-            title="Process flow of fish feed manufacturing"
+            src="https://skeletalsystem.vercel.app/"
+            title="Skeletal System"
             className='h-screen w-full'
-           // style={{ width: "500px", height: "400px" }}
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
@@ -18,4 +18,4 @@ const  FishFeedManufacturing= () => {
   )
 }
 
-export default FishFeedManufacturing
+export default SkeletalSystem

@@ -14,6 +14,12 @@ import digestiveimg from "../../../assets/cardimages/digestive.gif";
 import dentalimg from "../../../assets/cardimages/dental.gif";
 import earimg from "../../../assets/cardimages/ear.gif";
 import cellimg from "../../../assets/cardimages/cell.gif";
+import lymph from "../../../assets/cardimages/lymph.jpg";
+import skeletal from "../../../assets/cardimages/skeletal.jpg";
+import brain from "../../../assets/cardimages/brain.png";
+
+
+
 
 const HumanAnatomy = (props) => {
   return (
@@ -226,7 +232,85 @@ const HumanAnatomy = (props) => {
               </span>
             </Link>
           </div>
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+          <img src={lymph} className="h-32 w-full" alt="" />
+          <div className="p-3">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Lymphatic System
+            </h5>
+          </div>
+          <Link to="/lymphatic" className="py-4">
+            <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+              Explore
+            </span>
+          </Link>
         </div>
+        <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+        <img src={skeletal} className="h-32 w-full" alt="" />
+        <div className="p-3">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+            Skeletal System
+          </h5>
+        </div>
+        <Link to="/skeletal" className="py-4">
+          <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+            Explore
+          </span>
+        </Link>
+      </div>
+        </div>
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center">
+        <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+          <img src={brain} className="h-32 w-full" alt="" />
+          <div className="p-3">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Human Brain Anatomy
+            </h5>
+          </div>
+          <Link to="/brain" className="py-4">
+            <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+              Explore
+            </span>
+          </Link>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
     </>
   );

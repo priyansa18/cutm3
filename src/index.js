@@ -94,6 +94,15 @@ import ESP32mcontroller from "./components/container/Engineering/ESP32mcontrolle
 import Alternator from "./components/container/Engineering/Alternator";
 import Camshaft from "./components/container/Engineering/Camshaft";
 import CatalyticConverter from "./components/container/Engineering/CatalyticConverter";
+import FishFeedManufacturing from "./components/container/Engineering/FishFeedManufacturing";
+import RecirculatoryAquacultureSystem from "./components/container/RecirculatoryAquacultureSystem";
+import HostPathogen from "./components/container/HostPathogen";
+import AnimalBiotechnology from "./components/container/AnimalBiotechnology";
+import Pathogenesis from "./components/container/Pathogenesis";
+import BroodingManagement from "./components/container/BroodingManagement";
+import HatcheryManagement from "./components/container/HatcheryManagement";
+import Fishandshellfish from "./components/container/Fishandshellfish";
+import LymphaticSystem from "./components/container/LymphaticSystem";
 
 
 
@@ -888,21 +897,87 @@ root.render(
 />
 
 
+<Route
+  path="/fishfeed"
+  element={
+    <Protected>
+      <FishFeedManufacturing/>
+    </Protected>
+  }
+/>
 
 
+<Route
+  path="/aquaculture"
+  element={
+    <Protected>
+      <RecirculatoryAquacultureSystem/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/hostpathogen"
+  element={
+    <Protected>
+      <HostPathogen/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/animalbio"
+  element={
+    <Protected>
+      <AnimalBiotechnology/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/pathogenesis"
+  element={
+    <Protected>
+      <Pathogenesis/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/brooding"
+  element={
+    <Protected>
+      <BroodingManagement/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/hatchery"
+  element={
+    <Protected>
+      <HatcheryManagement/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/shellfish"
+  element={
+    <Protected>
+      <Fishandshellfish/>
+    </Protected>
+  }
+/>
 
-
-
-
-
-
-
+<Route
+  path="/lymphatic"
+  element={
+    <Protected>
+      <LymphaticSystem/>
+    </Protected>
+  }
+/>
 
 
 

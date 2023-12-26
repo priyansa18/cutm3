@@ -60,7 +60,8 @@ import  mc from "../../../assets/cardimages/mc.gif";
 import  alternator from "../../../assets/cardimages/alternator.gif";
 import  cams from "../../../assets/cardimages/cams.gif";
 import  catalytic from "../../../assets/cardimages/catalytic.gif";
-import  vse from "../../../assets/cardimages/vse.gif";
+import  fishf from "../../../assets/cardimages/fishf.jpg";
+
 
 
 
@@ -805,7 +806,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={vse} className="h-32 w-full" alt="" />
+<img src={wifi} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Vertical Steam Engine
@@ -1021,18 +1022,19 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={mc} className="h-32 w-full" alt="" />
+<img src={fishf} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-  Compressed Engine
+  Fish Feed Manufacturing
   </h5>
 </div>
-<Link to="/compressedengine" className="py-4">
+<Link to="/fishfeed" className="py-4">
   <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
     Explore
   </span>
 </Link>
 </div>
+
 
 
 
