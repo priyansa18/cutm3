@@ -103,6 +103,13 @@ import BroodingManagement from "./components/container/BroodingManagement";
 import HatcheryManagement from "./components/container/HatcheryManagement";
 import Fishandshellfish from "./components/container/Fishandshellfish";
 import LymphaticSystem from "./components/container/LymphaticSystem";
+import Zonation from "./components/container/Engineering/Zonation";
+import Greenhouse from "./components/container/Engineering/Greenhouse";
+import VerticalsteamEngine from "./components/container/Engineering/VerticalsteamEngine";
+import HorizontalsteamEngine from "./components/container/Engineering/HorizontalsteamEngine";
+import MasterCylinder from "./components/container/Engineering/MasterCylinder";
+import RadialEngine from "./components/container/Engineering/RadialEngine";
+import Cannon from "./components/container/Engineering/Cannon";
 
 
 
@@ -979,15 +986,68 @@ root.render(
   }
 />
 
+<Route
+  path="/zonation"
+  element={
+    <Protected>
+      <Zonation/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/greenhouse"
+  element={
+    <Protected>
+      <Greenhouse/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/verticalsteamengine"
+  element={
+    <Protected>
+      <VerticalsteamEngine/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/horizontalsteamengine"
+  element={
+    <Protected>
+      <HorizontalsteamEngine/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/mastercylinder"
+  element={
+    <Protected>
+      <MasterCylinder/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/radialengine"
+  element={
+    <Protected>
+      <RadialEngine/>
+    </Protected>
+  }
+/>
 
-
-
-
+<Route
+  path="/cannon"
+  element={
+    <Protected>
+      <Cannon/>
+    </Protected>
+  }
+/>
 
 
 

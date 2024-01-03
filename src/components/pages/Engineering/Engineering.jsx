@@ -61,6 +61,14 @@ import  alternator from "../../../assets/cardimages/alternator.gif";
 import  cams from "../../../assets/cardimages/cams.gif";
 import  catalytic from "../../../assets/cardimages/catalytic.gif";
 import  fishf from "../../../assets/cardimages/fishf.jpg";
+import  zonation from "../../../assets/cardimages/zonation.jpg";
+import  subsurface from "../../../assets/cardimages/subsurface.jpg";
+import  greenhouse from "../../../assets/cardimages/greenhouse.png";
+import  vse from "../../../assets/cardimages/vse.gif";
+import  hse from "../../../assets/cardimages/horizontalsteamengine.jpg";
+import  master from "../../../assets/cardimages/master.jpeg";
+import  radial from "../../../assets/cardimages/radial.jpg";
+import  cannon from "../../../assets/cardimages/cannon.jpeg";
 
 
 
@@ -806,7 +814,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={wifi} className="h-32 w-full" alt="" />
+<img src={vse} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Vertical Steam Engine
@@ -1036,6 +1044,112 @@ const Engineering = () => {
 </div>
 
 
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={zonation} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Zonation of Fresh Water
+  </h5>
+</div>
+<Link to="/zonation" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={subsurface} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Subsurface Drainage System
+  </h5>
+</div>
+<Link to="/subsurface" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={greenhouse} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+Basic Structural Components of Green House
+  </h5>
+</div>
+<Link to="/greenhouse" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+</div>
+
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={hse} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Horizontal Steam Engine
+  </h5>
+</div>
+<Link to="/horizontalsteamengine" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={master} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Master Cylinder
+  </h5>
+</div>
+<Link to="/mastercylinder" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={radial} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Radial Engine
+  </h5>
+</div>
+<Link to="/radialengine" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={cannon} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Cannon
+  </h5>
+</div>
+<Link to="/cannon" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+
+
+
 
 
 
@@ -1051,9 +1165,6 @@ const Engineering = () => {
 
 
 </div>
-
-
-
 
 
 
